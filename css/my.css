@@ -1,0 +1,328 @@
+*{
+    margin:0;
+    padding:0;
+}
+.top{
+    background-color:#fff;
+    height: 130px;
+}
+.header{
+    margin-top: 24px;
+}
+.logo{
+   display: flex;
+}
+.icon_logo{
+    width: 38px;
+    height: 40px;
+}
+.logo .text{
+    margin-left: 7px;
+}
+.Granit{
+    font-weight: 700;
+    color: #292929;
+    font-size: 20px;
+}
+.delivery{
+    font-weight: 400;
+    color: #ababab;
+    font-size: 11px;
+}
+.phone{
+    text-decoration: none;
+    color: #292929;
+}
+.free_call{
+    font-size: 11px;
+    color: rgb(150, 150, 150);
+}
+.btn{
+    font-size: 12px;
+    border: 2px solid #292929;
+    width: 160px;
+    height: 40px;
+    font-size: 12px;
+    font-weight: 700;
+    }
+.navigation{
+    display: flex;
+    justify-content: center;
+}
+nav{
+    background-color:#ffcc00;
+    height: 60px;
+    width: 940px;
+    position: absolute;
+    width: 1024px;
+    margin-top: -30px;
+}
+.menu{
+    justify-content: space-between;
+    display: flex;
+    list-style-type: none;
+    margin-top: 18px;
+}
+.menu_link{
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.main{
+    background: url(../fon/fon.png) no-repeat center / cover;
+    height: 550px;
+}
+.fast_delivery{
+    font-size: 36px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-top: 150px;
+}
+.main_description{
+    font-size: 14px;
+    color: rgba(255, 255, 255,0.7);
+    margin-top: 30px;
+}
+.detailed{
+    margin-top: 55px;
+}
+.detailed_btn{
+    font-size: 12px;
+    color: rgb(13, 13, 13);
+    width: 200px;
+    height: 48px;
+    background:#ffd200;
+    border:none;
+}
+.det{
+    display: inline;
+    font-size: 12px;
+    color: rgb(255, 255, 255);  
+    margin-left: 5px;
+}
+.goover{
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    margin-left: 3px;
+    text-decoration:underline;
+    text-decoration-color: rgb(255, 255, 255);
+}
+
+/* Всегда в наличии */
+
+.stock{
+        font-size: 20px;
+        color: rgb(41, 41, 41);
+        font-weight: bold;
+        margin-top: 70px;
+        /* margin-left: 60px; */
+        margin-bottom: 25px;
+}
+.stone_img{
+    max-width: 80%;
+    margin: 0 auto;
+      
+}
+.card{
+    display: flex;
+    text-align: center;
+    border: none;
+    margin-top: 25px;
+    justify-content: flex-end;
+}
+.stone_heading{
+        font-size: 15px;
+        color: rgb(41, 41, 41);
+        font-weight: 700;
+        margin-top: 30px;
+}
+.stone_description{
+        font-size: 13px;
+        color: rgb(98, 98, 98);
+        margin-top: 5px;
+}
+.prices{
+        font-size: 16px;
+        color: rgb(15, 15, 15);  
+        font-weight: 700;
+}
+.btn_denails_stone{
+        font-size: 12px;
+        background-color: rgb(255, 210, 0);
+        width: 180px;
+        height: 50px;
+        font-weight: bold;
+        margin-top: 10px; 
+}
+
+/* НАШИ ПРИЕМУЩЕСТВА */
+
+
+.our_adv{
+    margin-top: 180px;
+        font-size: 20px;
+        color: rgb(41, 41, 41);
+        font-weight: bold;  
+}
+.our_adv_bot{
+    margin-top: 80px;
+    display: inline;
+}
+.text_adv{
+    margin-top: 25px;
+}
+.pop_goods{
+    margin-top: 155px;
+}
+.pop_card{
+    margin-top: 43px;
+
+}
+.grn_stone{
+    margin-top: 7px;
+}
+.price{
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+}
+.price_product_discont{
+        font-size: 10px;
+        color: rgb(151, 151, 151);
+        text-decoration: line-through; 
+        margin-top: 5px;  
+        padding-right: 5px;  
+}
+.price_product{
+        font-size: 16px;
+        color: rgb(255, 0, 0);
+        font-weight: bold; 
+}
+.buy{
+    font-size: 12px;
+    background-color: rgb(255, 210, 0);
+    width: 180px;
+    height: 50px;
+  font-weight: bold;
+  margin-top: 10px; 
+}
+.btn_bay{
+    justify-content: center;
+}
+
+
+/* Наши услуги */
+
+.our_services{
+    margin-top: 135px;
+}
+.car{
+    margin-top: 85px;
+}
+.text_car{
+    text-decoration: none;
+    color: #292929;
+    margin-top: 5px;
+    font-weight: 700;
+}
+
+
+/* Карта */
+.contact{
+    background: url(../fon/Слой\ 24\ копия\ 2.png) no-repeat center / cover;
+    height: 570px;
+}
+.map{
+    margin-top: 100px;
+}
+.text_contact{
+    height: 365px;
+    width: 370px;
+    background-color: #fff;
+    margin-top: 100px;
+}
+.text_conact_content{
+    margin-left: 65px;
+}
+.contact_heading{
+    margin-top: 25px;
+        font-size: 20px;
+
+        color: rgb(41, 41, 41);
+        font-weight: bold;
+}
+.phone_icon_text{
+    display: flex;
+    margin-top: 28px;
+}
+.phone_map{
+        font-size: 14px;
+        color: rgb(41, 41, 41); 
+        font-weight: bold; 
+        margin-left: 5px;
+}
+.adds{
+    display: flex;
+    margin-top: 30px;
+}
+.address{
+        font-size: 14px;
+        color: rgb(41, 41, 41);
+        font-weight:600;
+        margin-left: 5px;
+}
+.mail{
+    display: flex;
+    margin-top: 24px;
+}
+.mail_left{
+        font-size: 14px;
+        color: rgb(41, 41, 41);
+        font-weight: 600;
+        margin-left: 5px;   
+}
+
+/* ФУУУУТЕР */
+
+
+footer{
+    background-color:#292929;
+    height: 100px;
+}
+.logo_footer{
+    color: ivory;
+    display: flex;
+}
+.white_logo{
+    width: 38px;
+    height: 40px;
+}
+.dilivery_white{
+    display: inline;
+}
+.mobil{
+    text-align: right;
+    float: right;
+}
+.white_phone{
+    text-decoration: none;
+    color: #fff;
+}
+.white_free_call{
+    font-size: 11px;
+    color: #fff;
+}
+.white_btn{
+    font-size: 12px;
+    border: 2px solid #fff;
+    width: 160px;
+    height: 40px;
+    font-size: 12px;
+    font-weight: 700;
+    background-color:#292929;
+    color: #fff;
+}
+.grants{
+    color: ivory;
+    margin-top: 24px;
+}
